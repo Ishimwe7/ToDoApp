@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    height: 98%;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+.new-item {
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+#newItemEntry {
+    border: 1px solid black;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    position: relative;
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+#addItem {
+    background-color: green;
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 7px;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+.to-do-list{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    gap: 72%;
+    margin-bottom: 3px;
+    justify-content: baseline;
+}
+#clearList{
+    margin-right: 0px;
+    font-size: x-large;
+    background-color: rgb(196, 71, 71);
+    border-radius: 5px;
+    
+}
+.toDoItem{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.toDoItemCheckbox{
+    width: 30px;
+}
